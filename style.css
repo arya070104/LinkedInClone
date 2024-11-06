@@ -198,7 +198,7 @@ section div{
 #sd{
     width: 50%;
     height: 600px;
-    background-image: url("banner.png");
+    background-image: url("../images/banner.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -222,3 +222,64 @@ section div{
     text-decoration: underline;
     cursor: pointer;
 }
+
+\\sidebar
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding-top: 20px;
+  }
+  
+  .sidebar h2 {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-shadow: 0 0 5px #eeff00, 0 0 10px #ff7300, 0 0 15px #ff0000;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #575757;
+  }
+
+  
+  .blinking-text {
+    color: #fff; /* Text color */
+    background-color: #333; /* Background color */
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    animation: blink 1s infinite; /* Blinking animation */
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
